@@ -7,3 +7,6 @@ public class Code2_4 {
 		System.out.println(a);
 	}
 }
+
+
+
