@@ -2,11 +2,16 @@
 public class Q1 {
 	public static void main(String[] args) {
 		int num = 10;
-		while(num >= 0) {
-			if(num % 2 == 0) {
+		int count = 0;
+		while (num >= 0) {
+			if (num % 2 == 0) {
 				System.out.println(num);
+				if (num != 0) {
+					count++;
+				}
 			}
 			num--;
 		}
+		System.out.println("偶数の個数は" + count);
 	}
 }
